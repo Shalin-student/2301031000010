@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href= "./style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Skillex.</div>
+        <nav>
+            <ul>
+                
+                <li><a href="#Categories">Categories</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#customers">Customer</a></li>
+            </ul>
+        </nav>
+        <div class="auth-buttons">
+            <a href="../shalin/Sign in/signIn.html" class="login-btn">Login</a>
+            <a href="./Sign up/signUP.html" class="trial-btn">Sign up</a>
+        </div>
+    </header>
+
+    <div class="hero">
+        <div class="hero-text">
+            <h1>Connect.<br>Learn.<br>Grow.</h1>
+            
+            <div class="outer">
+                <p>Find Your Passion</p>
+
+                <div class="inner">
+                    Go
+                </div>
+            </div>
+        </div>
+        
+        <div class="image-gallery">
+            <div class="gallery-item">
+                <img src="./photo/Black and White Minimalistic Simple Resume.jpg" alt="Mentor 1">
+                <div class="gallery-overlay">
+                    <h3>Web Development</h3>
+                    <p>Learn from expert developers</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./photo/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="Mentor 2">
+                <div class="gallery-overlay">
+                    <h3>Digital Marketing</h3>
+                    <p>Master online marketing</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./photo/mash.jpg.png" alt="Mentor 3">
+                <div class="gallery-overlay">
+                    <h3>UI/UX Design</h3>
+                    <p>Create beautiful interfaces</p>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+
+    <div class="container" id="Categories">
+        <h1>Unlimited access to 100+ instructors.</h1>
+        
+        <!-- Radio buttons for categories -->
+        <input type="radio" name="category" id="all" class="category-input" checked>
+        <label for="all" class="category-label">All categories</label>
+
+        <input type="radio" name="category" id="entertainment" class="category-input">
+        <label for="entertainment" class="category-label">Entertainment</label>
+
+        <input type="radio" name="category" id="lifestyle" class="category-input">
+        <label for="lifestyle" class="category-label">Lifestyle</label>
+
+        <input type="radio" name="category" id="writing" class="category-input">
+        <label for="writing" class="category-label">Writing</label>
+
+        <input type="radio" name="category" id="business" class="category-input">
+        <label for="business" class="category-label">Business</label>
+
+       
+
+        <div class="courses">
+            <!-- Business Category -->
+            <div class="course-card business">
+                <div class="course-image sales-marketing">
+                    <img src="./photo/617fa5505ecb8e2f5f217405_categories_01.webp" alt="Sales Marketing" />
+                </div>
+                <div class="course-info">
+                    <h2 class="course-title">Sales Marketing</h2>
+                    <p class="course-duration">4 month</p>
+                </div>
+            </div>
+
+            
+            <!-- Writing Category -->
+            <div class="course-card writing">
+                <div class="course-image copywriting">
+                    <img src="./photo/617fa550a239182daefe2e21_categories_02.webp" alt="Copywriting Pro" />
+                </div>
+                <div class="course-info">
+                    <h2 class="course-title">Copywriting Pro</h2>
+                    <p class="course-duration">2 month</p>
+                </div>
+            </div>
+
+            <!-- Entertainment Category -->
+            <div class="course-card entertainment">
+                <div class="course-image design-art">
+                    <img src="./photo/617fa550c4055a4a51c6d4ff_categories_03.webp" alt="Design art" />
+                </div>
+                <div class="course-info">
+                    <h2 class="course-title">Design art</h2>
+                    <p class="course-duration">4 month</p>
+                </div>
+            </div>
+
+            <!-- Lifestyle Category -->
+            <div class="course-card lifestyle">
+                <div class="course-image design-art">
+                    <img src="./photo/617fa550a23918491cfe2e20_categories_04.webp" alt="Lifestyle Course" />
+                </div>
+                <div class="course-info">
+                    <h2 class="course-title">Healthy Living</h2>
+                    <p class="course-duration">3 month</p>
+                </div>
+            </div>
+
+            
+        </div>
+    </div>
+
+
+    <div class="container" id="skills">
+        <div class="left-section">
+            <h1>Get the skills you need for a job that is in demand.</h1>
+            <p class="subtitle">The modern labor market dictates its own terms. Today, to be a competitive specialist requires more than professional skills.</p>
+            
+            <div class="skills-list">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <svg class="leadership-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Leadership</h3>
+                        <p>Fully committed to the success company</p>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <svg class="responsibility-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"/>
+                        </svg>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Responsibility</h3>
+                        <p>Employees will always be my top priority</p>
+                    </div>
+                </div>
+
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <svg class="flexibility-icon" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 11h-3.17l2.54-2.54c.39-.39.39-1.02 0-1.41-.39-.39-1.03-.39-1.42 0L15 11h-2V9l3.95-3.95c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0L13 6.17V3c0-.55-.45-1-1-1s-1 .45-1 1v3.17L8.46 3.63c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.03 0 1.42L11 9v2H9L5.05 7.05c-.39-.39-1.03-.39-1.42 0-.39.39-.39 1.02 0 1.41L6.17 11H3c-.55 0-1 .45-1 1s.45 1 1 1h3.17l-2.54 2.54c-.39.39-.39 1.02 0 1.41.39.39 1.03.39 1.42 0L9 13h2v2l-3.95 3.95c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0L11 17.83V21c0 .55.45 1 1 1s1-.45 1-1v-3.17l2.54 2.54c.39.39 1.02.39 1.41 0 .39-.39.39-1.03 0-1.42L13 15v-2h2l3.95 3.95c.39.39 1.03.39 1.42 0 .39-.39.39-1.02 0-1.41L17.83 13H21c.55 0 1-.45 1-1s-.45-1-1-1z"/>
+                        </svg>
+                    </div>
+                    <div class="skill-content">
+                        <h3>Flexibility</h3>
+                        <p>The ability to switch is an important skill</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <div class="stats-banner">
+                <div class="stat">
+                    <div class="stat-number">10</div>
+                    <div class="stat-label">YEARS EXPERIENCES</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">250</div>
+                    <div class="stat-label">TYPES OF COURSES</div>
+                </div>
+            </div>
+            
+            <div class="image-container">
+                <img src="./photo/image.png" alt="Woman working on laptop">
+            </div>
+        </div>
+    </div>
+
+      <!-- testimoniyal -->
+
+      <section class="testimonial-section" id="customers">
+        <h2 class="section-title">What our customers say.</h2>
+        
+        <div class="testimonial-wrapper">
+            <div class="testimonial-track">
+                <!-- Card 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        The explanations are clear, the teachers are responsible and friendly, and the homework is real practice
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="./photo/sidharth.jpg.png" alt="Rob Zuber">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">Rob Zuber</span>
+                            <span class="author-title">CEO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        I learned a lot of new things. I immediately apply my knowledge in my work, found myself a new client
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="./photo/5601.webp" alt="megan">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">Babar Azam</span>
+                            <span class="author-title">IT Manager</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        I really like the speakers of the course and the quality of the lectures. There is always feedback
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="./photo/miller.jpg.png" alt="Regis Wilson">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">Regis Wilson</span>
+                            <span class="author-title">Engineer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Duplicate cards for infinite loop -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        The explanations are clear, the teachers are responsible and friendly, and the homework is real practice
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="./photo/mash.jpg.png" alt="mash">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">Mash Shah</span>
+                            <span class="author-title">CMO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        I learned a lot of new things. I immediately apply my knowledge in my work, found myself a new client
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="./photo/Divyank.jpg.png" alt="Melanie Pickett">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">Melanie Pickett</span>
+                            <span class="author-title">IT Manager</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        I really like the speakers of the course and the quality of the lectures. There is always feedback
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="./photo/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="ali">
+                        </div>
+                        <div class="author-info">
+                            <span class="author-name">ali Wilson</span>
+                            <span class="author-title">Engineer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-nav">
+            <span class="nav-dot"></span>
+            <span class="nav-dot"></span>
+            <span class="nav-dot"></span>
+        </div>
+    </section>
+    
+    <!-- footer section -->
+
+    <footer>
+        <div class="footer-container">
+            
+            <div class="logo">Skillex.</div>
+            <div class="nav-links">
+                <div class="nav-column1">
+                    <span class="nav-title">Find passion</span>
+                    <a href="#" class="nav-item">Skills</a>
+                </div>
+                
+                <div class="nav-column">
+                    <span class="nav-title">Categories</span>
+                    <a href="#" class="nav-item">Customer</a>
+                </div>
+            </div>
+            
+            <div class="join-section">
+                <div class="nav-title">Join our community</div>
+                <div class="email-container">
+                    <input type="email" class="email-input" placeholder="Enter your email">
+                    <button class="go-button">GO</button>
+                </div>
+            </div>
+            <div class="left-section">
+               
+                <div class="social-links">
+                    <a href="#" class="social-link facebook"></a>
+                    <a href="#" class="social-link behance"></a>
+                    <a href="#" class="social-link linkedin"></a>
+                    <a href="#" class="social-link instagram"></a>
+                    <a href="#" class="social-link dribbble"></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bottom-footer">
+            <div class="copyright">
+                <span>©</span>
+                <span>2021 Halo Lab. All rights reserved</span>
+                <span> <a href="./terms/terms.html">Terms & Condition</a> | <a href="./pivarcy/condition.html">Privacy & Policy</a> | <a href="./ContactUs/contactUs.html">Contact Us</a></span>
+            </div>
+            
+            
+            <div class="like-follow">
+                <span class="heart">♥</span>
+                <span>Like</span>
+                <span>&</span>
+                <span>Follow</span>
+                <span>from you. New free to use projects from us.</span>
+
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
